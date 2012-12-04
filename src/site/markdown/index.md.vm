@@ -1,0 +1,16 @@
+RequireJS/AMD Text Loader Plugin
+================================
+
+This is a redistribution of the [RequireJS][1] [`text` loader plugin][2].
+
+To use this module in your projects just add the following dependency:
+
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${project.artifactId}</artifactId>
+      <version>${project.version}</version>
+      <type>jszip</type>
+    </dependency>
+
+  [1]: http://requirejs.org/
+  [2]: http://requirejs.org/docs/api.html#text
