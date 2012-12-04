@@ -70,7 +70,8 @@
     <dependency>
       <groupId>org.jszip.redist</groupId>
       <artifactId>require</artifactId>
-      <version>1.0.8</version>
+      <!-- minimum required version for the 2.0.x series of text -->
+      <version>2.0.0</version>
       <type>jszip</type>
     </dependency>
   </dependencies>
@@ -114,7 +115,7 @@
               <goal>download-single</goal>
             </goals>
             <configuration>
-              <url>https://raw.github.com/jrburke/requirejs/${require-version}/</url>
+              <url>https://raw.github.com/requirejs/text/${require-version}/</url>
               <fromFile>text.js</fromFile>
               <toFile>${project.build.outputDirectory}/text.js</toFile>
             </configuration>
